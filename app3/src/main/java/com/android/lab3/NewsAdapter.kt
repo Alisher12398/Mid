@@ -29,74 +29,8 @@ interface OnItemClickListener {
 class NewsAdapter(var persons:ArrayList<NewsModel>):RecyclerView.Adapter<NewsAdapter.ViewHolder>(){
 
 
-    /*public interface ListItemClickListener{
-        void onItemClick(int position)
-    }*/
-
-
-/*
-
-    interface ListItemClickListener {
-        fun onItemClick(position: Int)
-    }
-
-    private var mOnClickListener: ListItemClickListener? = null
-
-    */
-/*public RecyclerViewAdapter(ListItemClickListener mOnClickListener, Parameter2,Parameter3...){
-
-        this.mOnClickListener = mOnClickListener;
-        //other parameters initialisation
-    }*//*
-
-
-    fun NewsAdapter(mOnClickListener: ListItemClickListener) {
-        this.mOnClickListener = mOnClickListener
-    }
-*/
-
-
-
-
-   /* private var mExampleList: ArrayList<NewsModel>? = null
-    private var mListener: OnItemClickListener? = null
-
-    interface OnItemClickListener {
-        fun onItemClick(position: Int)
-    }
-
-    fun setOnItemClickListener(listener: OnItemClickListener) {
-        mListener = listener
-    }*/
-
-
-    /*fun NewsAdapter(aa: ArrayList<NewsModel>){
-        actors= aa
-        this.aa= actors
-    }*/
-
-   /* private var mImageNames = ArrayList()
-    private var mImages = ArrayList()
-    private var mContext: Context
-
-    fun RecyclerViewAdapter(context: Context, imageNames: ArrayList<NewsModel>, images: ArrayList<String>): ??? {
-        mImageNames = imageNames.title
-        mImages = images
-        mContext = context
-    }*/
-
-
-   /* private var items: ArrayList<NewsModel>? = null
-    private var listener: OnItemClickListener? = null
-
-    fun NewsAdapter(items: ArrayList<NewsModel>, listener: OnItemClickListener) {
-        this.items = items
-        this.listener = listener
-    }*/
-
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.title.text = persons[position].title
-        //holder.subtitle.text = persons[position].subtitles
     }
 
     override fun onCreateViewHolder(holder: ViewGroup, position: Int): ViewHolder {

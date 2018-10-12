@@ -39,18 +39,12 @@ class Activity2 : AppCompatActivity() {
             "uber" -> image2.setImageResource(R.drawable.uber)
         }*/
 
-       /* floating_button.setOnClickListener {
-            val toast = Toast.makeText(this,
-                    "You liked it", Toast.LENGTH_LONG)
-            toast.show()
-        }
-
         image_button.setOnClickListener {
             val intent2 = Intent(this, MainActivity::class.java)
             startActivity(intent2)
 
         }
-*/
+
 
         /* val intent = intent
          val exampleItem = intent.getParcelableExtra<NewsModel>("Example Item")

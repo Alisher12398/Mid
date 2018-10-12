@@ -22,7 +22,7 @@ class BlankFragment3 : Fragment() {
 
         val actors = ArrayList<CategoryModel>()
         for (i in 1..7) {
-            actors.add(CategoryModel("Category  " + i.toString()))
+            actors.add(CategoryModel("Task  " + i.toString()))
         }
 
         var adapter3 = CategoryAdapter(actors)

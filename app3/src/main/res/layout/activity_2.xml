@@ -68,14 +68,6 @@
         android:layout_marginTop="5dp" />
 
 
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:src="@drawable/sharevariant"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginEnd="5dp"
-        android:layout_marginTop="5dp"/>
 
 
 </android.support.constraint.ConstraintLayout>
