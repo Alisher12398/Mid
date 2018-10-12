@@ -36,10 +36,6 @@
             android:textSize="30sp"
             android:textColor="@android:color/white"
 
-            app:layout_constraintTop_toTopOf="@id/floating_button"
-            app:layout_constraintBottom_toBottomOf="@id/floating_button"
-            app:layout_constraintStart_toStartOf="@id/floating_button"
-            app:layout_constraintEnd_toEndOf="@id/floating_button"
             />
 
     </android.support.constraint.ConstraintLayout>
